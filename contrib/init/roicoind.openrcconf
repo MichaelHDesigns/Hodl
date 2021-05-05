@@ -1,0 +1,27 @@
+# /etc/conf.d/hodlcashd: config file for /etc/init.d/hodlcashd
+
+# Config file location
+#HODLCASHD_CONFIGFILE="/etc/hodlcash/hodlcash.conf"
+
+# What directory to write pidfile to?  (created and owned by $HODLCASHD_USER)
+#HODLCASHD_PIDDIR="/var/run/hodlcashd"
+
+# What filename to give the pidfile
+#HODLCASHD_PIDFILE="${HODLCASHD_PIDDIR}/hodlcashd.pid"
+
+# Where to write hodlcashd data (be mindful that the blockchain is large)
+#HODLCASHD_DATADIR="/var/lib/hodlcashd"
+
+# User and group to own hodlcashd process
+#HODLCASHD_USER="hodlcash"
+#HODLCASHD_GROUP="hodlcash"
+
+# Path to hodlcashd executable
+#HODLCASHD_BIN="/usr/bin/hodlcashd"
+
+# Nice value to run hodlcashd under
+#HODLCASHD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+HODLCASHD_OPTS="-disablewallet"
+

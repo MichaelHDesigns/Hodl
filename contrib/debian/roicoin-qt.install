@@ -1,0 +1,6 @@
+usr/local/bin/hodlcash-qt usr/bin
+share/pixmaps/hodlcash32.xpm usr/share/pixmaps
+share/pixmaps/hodlcash16.xpm usr/share/pixmaps
+share/pixmaps/hodlcash128.png usr/share/pixmaps
+debian/hodlcash-qt.desktop usr/share/applications
+debian/hodlcash-qt.protocol usr/share/kde4/services/

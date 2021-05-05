@@ -1,0 +1,5 @@
+Building HODL coin
+
+See doc/build-*.md for instructions on building hodlcashd,
+the intended-for-services, no-graphical-interface, reference
+implementation of HODL coin.

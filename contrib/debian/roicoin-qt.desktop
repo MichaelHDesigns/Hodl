@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HodlCash
+Comment=HodlCash P2P Cryptocurrency
+Comment[fr]=HodlCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HodlCash, eşten eşe kriptografik sanal para birimi
+Exec=hodlcash-qt %u
+Terminal=false
+Type=Application
+Icon=hodlcash128
+MimeType=x-scheme-handler/hodlcash;
+Categories=Office;Finance;
